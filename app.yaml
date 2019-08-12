@@ -1,3 +1,3 @@
 runtime: ruby
 env: flex
-entrypoint: bundle exec rackup config.ru
+entrypoint: bundle exec rackup -p $PORT config.ru
