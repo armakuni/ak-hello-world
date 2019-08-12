@@ -8,4 +8,6 @@ image_resource:
     tag: 2.6.3
 
 run:
-  path: hello-world/scripts/unit-tests.sh
+  path: ls
+  args: ['-al']
+  # path: hello-world/scripts/unit-tests.sh
