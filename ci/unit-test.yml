@@ -8,4 +8,4 @@ image_resource:
     tag: 2.6.3
 
 run:
-  path: hello-world/scripts/unit-test.sh
+  path: hello-world/scripts/unit-tests.sh
