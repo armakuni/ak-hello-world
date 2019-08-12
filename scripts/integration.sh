@@ -7,4 +7,4 @@ cd $ROOT
 
 gem install bundler
 bundle install
-bundle exec rspec -t 'acceptance'
+bundle exec rspec -t 'integration'
