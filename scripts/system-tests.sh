@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+SCRIPT_DIR=$(dirname $0)
+ROOT=$(cd $SCRIPT_DIR/..; pwd)
+
+cd $ROOT
+
 apt-get update && \
   apt-get install -y \
   ruby-chromedriver-helper \

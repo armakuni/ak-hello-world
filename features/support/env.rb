@@ -24,7 +24,7 @@ Capybara.javascript_driver = :headless_chrome
 
 Capybara.configure do |config|
   config.default_driver = :headless_chrome
-  config.app_host       = 'https://ak-demo-249610.appspot.com'
+  config.app_host       = ENV['APP_ENDPOINT']
   config.run_server     = false
 end
 
