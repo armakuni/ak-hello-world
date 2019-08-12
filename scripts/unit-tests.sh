@@ -7,4 +7,6 @@ cd $ROOT
 
 gem install bundler
 bundle install
-bundle exec rspec -t '~integration'
+bundle exec rspec \
+  -t '~integration' \
+  -t '~system'
