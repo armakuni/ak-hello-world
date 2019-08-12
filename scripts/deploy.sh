@@ -11,4 +11,4 @@ gcloud auth activate-service-account \
   --key-file=$SERVICE_ACCOUNT_JSON \
   --project=$PROJECT_ID
 
-gcloud app deploy
+gcloud app deploy -q
