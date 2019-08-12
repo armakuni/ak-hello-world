@@ -7,7 +7,8 @@ image_resource:
     repository: ruby
     tag: 2.6.3
 
+inputs:
+  hello-world
+
 run:
-  path: ls
-  args: ['-al']
-  # path: hello-world/scripts/unit-tests.sh
+  path: hello-world/scripts/unit-tests.sh
