@@ -2,7 +2,7 @@ require 'api'
 require 'spec_helper'
 require 'rack/test'
 
-RSpec.describe 'The HelloWorld App' do
+describe 'The HelloWorld App', acceptance: true do
   include Rack::Test::Methods
 
   def app
