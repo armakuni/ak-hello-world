@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 SCRIPT_DIR=$(dirname $0)
 ROOT=$(cd $SCRIPT_DIR/..; pwd)
 SERVICE_ACCOUNT_JSON='svc_account.json'
