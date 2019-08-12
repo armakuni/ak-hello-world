@@ -9,6 +9,10 @@ module HelloWorld
       end
     end
 
+    before do
+      content_type 'application/json'
+    end
+
     get '/' do
       { message: content.generate }.to_json
     end

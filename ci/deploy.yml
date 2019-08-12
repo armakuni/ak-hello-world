@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: google/cloud-sdk
+
+inputs:
+  - name: hello-world
+
+run:
+  path: hello-world/scripts/deploy.sh
+
+params:
+  SERVICE_ACCOUNT_KEY_BASE64: ((service_account_key_base64))
+  PROJECT_ID: ((project_id))
