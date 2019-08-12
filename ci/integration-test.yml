@@ -11,4 +11,4 @@ inputs:
   - name: hello-world
 
 run:
-  path: hello-world/scripts/acceptance-tests.sh
+  path: hello-world/scripts/integration-tests.sh
