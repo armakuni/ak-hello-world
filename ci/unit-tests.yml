@@ -11,4 +11,6 @@ inputs:
   - name: hello-world
 
 run:
-  path: hello-world/scripts/unit-tests.sh
+  path: ls
+  args: ['-al']
+  # path: hello-world/scripts/unit-tests.sh
