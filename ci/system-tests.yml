@@ -10,6 +10,9 @@ image_resource:
 inputs:
   - name: hello-world
 
+outputs:
+  - name: gem-cache
+
 run:
   path: hello-world/scripts/system-tests.sh
 
