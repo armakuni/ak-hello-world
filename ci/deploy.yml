@@ -11,3 +11,7 @@ inputs:
 
 run:
   path: hello-world/scripts/deploy.sh
+
+parmas:
+  PROJECT_ID: PROJECT_ID
+  SERVICE_ACCOUNT_KEY_BASE64: SERVICE_ACCOUNT_KEY_BASE64
