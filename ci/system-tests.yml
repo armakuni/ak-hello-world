@@ -12,3 +12,6 @@ inputs:
 
 run:
   path: hello-world/scripts/system-tests.sh
+
+params:
+  APP_ENDPOINT: APP_ENDPOINT
